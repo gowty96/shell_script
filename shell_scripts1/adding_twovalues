@@ -1,0 +1,8 @@
+echo -n "Enter the first number:"
+read x
+echo -n "Enter the second number:"
+read y
+echo -n "Enter the third number:"
+read z
+(( sum=x+y+z ))
+echo "Total is: $sum"
